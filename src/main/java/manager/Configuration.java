@@ -13,7 +13,7 @@ import java.net.URL;
 //"deviceName": "Nex",
 //        "platformName": "Android",
 //        "platformVersion": "8.0",
-//        "appPackage": "com.example.svetlana.scheduler",
+//       "appPackage": "com.example.svetlana.scheduler",
 //        "appActivity": ".presentation.splashScreen.SplashScreenActivity"
 public class Configuration {
     protected static AppiumDriver<MobileElement>driver;
