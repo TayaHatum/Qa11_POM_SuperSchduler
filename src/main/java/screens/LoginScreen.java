@@ -2,7 +2,9 @@ package screens;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import models.User;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class LoginScreen extends BaseScreen{
     public LoginScreen(AppiumDriver<MobileElement> driver) {
@@ -33,4 +35,27 @@ public WizardScreen clickLoginButton(){
         loginButton.click();
         return new WizardScreen(driver);
 }
+
+public WizardScreen complexLogin(User user){
+        should(emailEditText,15);
+        type(emailEditText, user.getEmail());
+        type(passwordEditText, user.getPassword());
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return new WizardScreen(driver);
+}
+
+
+public boolean isLoginButtonPresent(){
+        should(loginButton,5);
+        return loginButton.isDisplayed();
+}
+
+
+    public LoginScreen loginButtonPresent(){
+        should(loginButton,5);
+        Assert.assertTrue(loginButton.isDisplayed());
+        return this;
+    }
 }
