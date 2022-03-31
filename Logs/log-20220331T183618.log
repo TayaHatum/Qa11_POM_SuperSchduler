@@ -1,0 +1,4 @@
+631  [Test worker] INFO  manager.Configuration - Device name is Nex
+640  [Test worker] INFO  manager.Configuration - Platform : 'Android' & Version : '8.0'
+643  [Test worker] INFO  manager.Configuration - App version is 0.0.3
+54608 [Test worker] INFO  manager.Configuration - This test run with user User(email=wick2232@mail.com, password=Ww12345$)

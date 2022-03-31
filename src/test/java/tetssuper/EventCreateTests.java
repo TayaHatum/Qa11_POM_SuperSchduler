@@ -5,7 +5,6 @@ import models.Event;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import screens.HomeScreen;
 import screens.LoginScreen;
@@ -21,8 +20,9 @@ public class EventCreateTests extends Configuration {
                 .skipWizard();
     }
 
-    @Test
+    @Test(invocationCount = 2)
     public void createNewEventTest(){
+
 
         boolean plusButtonPresent = new HomeScreen(driver)
                 .initCreationEvent()
@@ -31,7 +31,7 @@ public class EventCreateTests extends Configuration {
         Assert.assertTrue(plusButtonPresent);
     }
 
-    @Test
+    @Test (invocationCount = 2)
     public void createNewEventTest2(){
 
         boolean plusButtonPresent = new HomeScreen(driver)
