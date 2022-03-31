@@ -1,0 +1,91 @@
+20:47:16.885  INFO  manager.Configuration - Device name is Nex
+20:47:16.892  INFO  manager.Configuration - Platform : 'Android' & Version : '8.0'
+20:47:16.893  INFO  manager.Configuration - App version is 0.0.3
+20:47:57.672  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:47:58.631  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:47:59.782  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:48:00.276  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:48:01.519  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:48:02.770  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:48:03.570  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:48:04.223  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:48:05.319  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:48:05.918  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:48:06.276  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:48:07.819  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:48:08.466  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:48:10.572  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:48:12.522  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+20:48:12.970  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+20:48:13.724  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']
+20:48:15.006  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']
+20:48:15.007  INFO  manager.MyListener - You have a problem --->
+20:48:15.007  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:145f:668e:840d:8e19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fe088d25-1fad-4262-bb9c-a8cc637ca4ae
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']}
+20:48:15.008  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2895.png
+20:48:22.724  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']
+20:48:25.119  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']
+20:48:25.120  INFO  manager.MyListener - You have a problem --->
+20:48:25.120  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:145f:668e:840d:8e19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fe088d25-1fad-4262-bb9c-a8cc637ca4ae
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']}
+20:48:25.120  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2905.png
+20:48:26.219  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:48:28.420  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:48:28.927  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']
+20:48:32.218  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']
+20:48:36.120  INFO  screens.BaseScreen - The window Height --->1776
+20:48:36.120  INFO  screens.BaseScreen - The window Wight --->1080
+20:48:36.126  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+20:48:36.579  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+20:48:37.028  INFO  screens.BaseScreen - The first element  'x' ---> 140
+20:48:37.028  INFO  screens.BaseScreen - The first element  'y' ---> 288
+20:48:37.080  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+20:48:37.770  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+20:48:38.023  INFO  screens.BaseScreen - The last element  'x' ---> 768
+20:48:38.023  INFO  screens.BaseScreen - The last element  'y' ---> 288
+20:48:57.860  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:48:58.267  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:48:58.517  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:48:58.871  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:48:59.171  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:49:01.055  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:49:01.469  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:49:02.955  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:49:04.055  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:49:05.107  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:49:05.406  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:49:06.564  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:49:06.956  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:49:07.552  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:49:09.902  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+20:49:10.651  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+20:49:10.902  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+20:49:11.951  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+20:49:12.400  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+20:49:13.409  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+20:49:13.810  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:49:14.907  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:49:15.009  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:49:16.701  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:49:16.951  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:49:17.760  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:49:18.099  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+20:49:18.748  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+20:49:19.100  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+20:49:22.155  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+20:49:22.447  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:49:28.446  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:49:28.556  INFO  manager.MyListener - 'Before find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:49:31.953  INFO  manager.MyListener - 'After find' by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
